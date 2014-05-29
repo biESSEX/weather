@@ -11,7 +11,7 @@ import csv
 class db_connection(object):
 	def __init__(self):
 		try:
-		self.conn = psycopg2.connect("dbname='edw' user='admin' host='localhost' password='password'")	
+			self.conn = psycopg2.connect("dbname='edw' user='admin' host='localhost' password='password'")	
 		except:
 			print "I am unable to connect to 'edw'"
 
