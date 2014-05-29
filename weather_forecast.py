@@ -33,8 +33,7 @@ class db_connection(object):
 class weather(db_connection):
 		
 	# API key to access Wunderground as biESSEX
-	api_key = "e91467bdd71313dd"
-
+	api_key = "a1234bcd56789ef"
 	def query(self):
 		for c in self.coordinates():
 			scode = c[0]
